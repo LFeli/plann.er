@@ -15,7 +15,6 @@ Construído na trilha de **React**, o plann.er utiliza tecnologias modernas como
 - [Funcionalidades](#funcionalidades)
 - [Melhorias e Novas Funcionalidades](#melhorias-e-novas-funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Contribuições](#contribuições)
 
 ## Pré-requisitos
 
@@ -73,13 +72,34 @@ Para instalar e rodar o Plann.er localmente, siga os passos detalhados abaixo:
     npm run dev
     ```
 
+## Uso
 
-<!-- 5. Instale as dependências da pasta web:
-  ```bash
-  npm install
-  ```
+1. **Defina os Detalhes da Viagem:** Selecione o local e a data da viagem.
+2. **Convide Participantes:** Envie convites para amigos e familiares participarem do planejamento.
+3. **Confirme a criação da sua viagem:** Confirme o seu nome completo e seu e-mail pessoal para criar a sua viagem.
+4. **Cadastre Atividades:** Adicione atividades que o grupo pretende realizar durante a viagem.
+5. **Adicione Links Importantes:** Salve links úteis, como mapas, restaurantes, ou guias turísticos.
+6. **Gerencie os Convites:** Verifique quem aceitou o convite e organize os participantes.
 
-6. Inicie o servidor de desenvolvimento:
-    ```bash
-    npm run dev
-    ``` -->
+## Funcionalidades
+
+- Definir local e data da viagem.
+- Convidar pessoas para acessar o planner da viagem.
+- Cadastrar atividades e links importantes.
+- Gerenciar participantes e convites.
+
+## Melhorias e Novas Funcionalidades
+Após o evento NLW, o projeto **plann.er** continua em desenvolvimento com o objetivo de aprimorar as interações e funcionalidades. Porém essa etapa ainda está sendo desenvolvida 🚧
+
+## Tecnologias Utilizadas
+
+- **React** - Biblioteca principal para construção da interface.
+- **TypeScript** - Superset de JavaScript para tipagem estática.
+- **Vite** - Ferramenta de build rápida para projetos front-end.
+- **Tailwind CSS** - Framework de CSS para estilização.
+- **Bibliotecas adicionais:**
+  - `axios`
+  - `date-fns`
+  - `react-day-picker`
+  - `react-router-dom`
+  - `tailwind-variants`
